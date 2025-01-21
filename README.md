@@ -5,7 +5,7 @@
     <title>Font Style Example</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Verdana, sans-serif;
             font-size: 10px;
             color: black;
         }
