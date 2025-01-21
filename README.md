@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Style Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <p>This text is in Arial, size 10px, and black color.</p>
+</body>
+</html>
+
 <a href="about-contact">about-contact</a>
 
 <a href="https://github.com/stephenzimmerer/stephenzimmerer.github.io/blob/d2aaa607a6039e381b15c6724bceda547ee44282/cv">cv</a>
