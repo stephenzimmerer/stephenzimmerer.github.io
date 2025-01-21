@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,11 +10,6 @@
             color: black;
         }
     </style>
-</head>
-<body>
-    <p>This text is in Arial, size 10px, and black color.</p>
-</body>
-</html>
 
 <a href="about-contact">about-contact</a>
 
@@ -28,3 +22,6 @@
 <a href="https://example.com">teaching</a>
 
 <a href="https://example.com">assist</a>
+
+</head>
+</html>
