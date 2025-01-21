@@ -11,7 +11,7 @@
         }
     </style>
 
-<a href="about-contact">about-contact</a>
+<a href="about-contact.md">about-contact</a>
 <br>
 
 <a href="https://github.com/stephenzimmerer/stephenzimmerer.github.io/blob/d2aaa607a6039e381b15c6724bceda547ee44282/cv">cv</a>
