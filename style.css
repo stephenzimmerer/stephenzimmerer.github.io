@@ -1,5 +1,10 @@
 body {
+  font-family: Arial, sans-serif;
   background-color: white;
-  font: 30 px verdana, sans-serif;
   color: black;
+  font-size: 16px
+}
+
+h1 {
+  color: #007BFF;
 }
