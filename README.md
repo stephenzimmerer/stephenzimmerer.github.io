@@ -18,10 +18,10 @@
 <a href="https://github.com/stephenzimmerer/stephenzimmerer.github.io/blob/d2aaa607a6039e381b15c6724bceda547ee44282/cv">cv</a>
 <br>
 
-<a href="https://github.com/stephenzimmerer/stephenzimmerer.github.io/blob/0ed7d5bd7782d6f07c066f574a728e8d706f5e0f/scenarios">scenario</a>
+<a href="https://github.com/stephenzimmerer/stephenzimmerer.github.io/blob/00c4fff20ccb947326aa1b76fcdd24532ab12c77/fiction">projects</a>
 <br>
 
-<a href="https://github.com/stephenzimmerer/stephenzimmerer.github.io/blob/00c4fff20ccb947326aa1b76fcdd24532ab12c77/fiction">fiction</a>
+<a href="https://github.com/stephenzimmerer/stephenzimmerer.github.io/blob/0ed7d5bd7782d6f07c066f574a728e8d706f5e0f/scenarios">scenarios</a>
 <br>
 
 <a href="https://example.com">teaching</a>
