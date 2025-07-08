@@ -26,3 +26,14 @@ left-text {
   padding-top: 15px;
   padding-left: 15px;
 }
+
+caption-text {
+  font-family: 'arial', sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  max-width: 50%;
+  float: left;
+  padding-top: 15px;
+  padding-left: 15px;
+}
