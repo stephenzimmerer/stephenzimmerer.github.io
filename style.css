@@ -1,4 +1,4 @@
-title {
+title-text {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
@@ -14,9 +14,10 @@ body {
   font-size: 14px;
   padding-top: 15px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
-left {
+left-text {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
@@ -27,13 +28,22 @@ left {
   padding-left: 15px;
 }
 
-caption {
+screen-text {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
   font-size: 14px;
-  max-width: 50%;
-  float: left;
   padding-top: 15px;
   padding-left: 15px;
+  padding-right: 15px;
+}
+
+caption-text {
+  font-family: 'arial', sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
