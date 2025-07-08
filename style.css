@@ -1,16 +1,19 @@
-body {
+title-text {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
   font-size: 14px;
-  padding-top: 25px;
-  padding-left: 25px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
-p {
+body-text {
   font-family: 'arial', sans-serif;
-    font-size: 12px;
+  background-color: white;
   color: black;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 left-text {
@@ -20,6 +23,6 @@ left-text {
   font-size: 14px;
   max-width: 50%;
   float: left;
-  padding-top: 25px;
-  padding-left: 25px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
