@@ -1,4 +1,4 @@
-title-text {
+TITLEtext {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
@@ -17,7 +17,7 @@ body {
   padding-right: 15px;
 }
 
-left-text {
+LEFTtext {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
@@ -28,7 +28,7 @@ left-text {
   padding-left: 15px;
 }
 
-screen-text {
+SCREENtext {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
@@ -38,7 +38,7 @@ screen-text {
   padding-right: 15px;
 }
 
-caption-text {
+CAPTIONtext {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
