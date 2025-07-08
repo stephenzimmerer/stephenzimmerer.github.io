@@ -1,4 +1,4 @@
-title-text {
+title {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
@@ -16,7 +16,7 @@ body {
   padding-left: 15px;
 }
 
-left-text {
+left {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
@@ -27,7 +27,7 @@ left-text {
   padding-left: 15px;
 }
 
-caption-text {
+caption {
   font-family: 'arial', sans-serif;
   background-color: white;
   color: black;
