@@ -23,6 +23,12 @@ p {
   margin: 2rem auto;
 }
 
+.index-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+
 .index-title {
   text-align: left;
 }
