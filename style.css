@@ -1,5 +1,5 @@
 body {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Arial', sans-serif;
   background-color: white;
   color: black;
   font-size: 12px;
@@ -14,12 +14,20 @@ p {
 }
 
 .left-text {
-  font-family: 'Arial', sans-serif;
-  background-color: white;
-  color: black;
-  font-size: 12px;
   width: 50%;
   float: left;
-  padding-top: 25px;
-  padding-left: 25px;
+}
+
+.index-container {
+  width: 100%; /* or 100%, depending on layout */
+  margin: 2rem auto;
+}
+
+.index-title {
+  text-align: left;
+}
+
+.index-year {
+  text-align: right;
+  min-width: 3ch; /* optional: ensure consistent width for numbers */
 }
