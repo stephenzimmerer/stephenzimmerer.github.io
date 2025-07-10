@@ -20,23 +20,16 @@ body {
 
 .index-line {
   display: flex;
-  justify-content: space-between;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
+  gap: 1rem; /* optional spacing between columns */
 }
 
 .index-line span {
-  flex-basis: 20%;
-  text-align: left;
+  flex: 1;           /* makes each column equal width */
+  text-align: left;  /* ensures all text is left-justified */
 }
 
-.index-line .center-left {
-  text-align: left;
-}
-
-.index-line .center-right {
-  text-align: right;
-}
-
-.index-line .right {
-  text-align: right;
-}
+.left         { flex-basis: 20%; }
+.center-left  { flex-basis: 30%; }
+.center-right { flex-basis: 30%; }
+.right        { flex-basis: 20%; }
