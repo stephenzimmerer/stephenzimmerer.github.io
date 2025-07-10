@@ -14,7 +14,7 @@ body {
 
 .index-container {
   clear: both;
-  width: 100%;
+  width: 80%;
   margin: 2rem auto;
 }
 
@@ -24,11 +24,19 @@ body {
   padding: 0.25rem 0;
 }
 
-.index-title {
+.index-line span {
+  flex-basis: 20%;
   text-align: left;
 }
 
-.index-year {
+.index-line .center-left {
+  text-align: left;
+}
+
+.index-line .center-right {
   text-align: right;
-  min-width: 3ch; /* optional: ensure consistent width for numbers */
+}
+
+.index-line .right {
+  text-align: right;
 }
