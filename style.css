@@ -20,8 +20,7 @@ body {
 
 .index-line {
   display: flex;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0.5rem 0;
   gap: 1rem; /* optional spacing between columns */
 }
 
