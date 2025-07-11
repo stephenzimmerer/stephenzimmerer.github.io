@@ -187,11 +187,14 @@ a:active {
 
   .content-container {
     flex-direction: column !important;
+    padding: 0; /* remove the 2rem padding */
   }
 
   .left-text,
   .right-image {
     width: 100% !important;
+    padding: 0 1rem; /* optional: add light horizontal padding */
+    box-sizing: border-box;
   }
   
 }
