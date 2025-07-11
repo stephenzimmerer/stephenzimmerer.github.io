@@ -50,22 +50,17 @@ a:active {
   align-items: flex-start;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 20px;
-}
-
 .left-text {
   width: 50%;
 }
 
 .right-image {
+  position: absolute;
+  top: 100px;
+  right: 15px;
   max-width: 30vw;
-  width: 30vw;
+  width: 30vw; /* 30% of viewport width */
   height: auto;
-  position: static;
 }
 
 .right-image img {
@@ -190,17 +185,5 @@ a:active {
     width: 100%;
     padding: 3rem 1rem;
   }
-  
-  .flex-container {
-    flex-direction: column;
-  }
-  
-  .right-image {
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  .left-text {
-    width: 100%;
-  }
 }
+
