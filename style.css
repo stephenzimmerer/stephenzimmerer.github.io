@@ -30,8 +30,6 @@ a:active {
   display: flex;
   justify-content: flex-start; /* Keep text on left */
   align-items: flex-start;
-  position: relative;
-  padding-bottom: 40vh;
 }
 
 .left-text {
@@ -39,13 +37,12 @@ a:active {
 }
 
 .right-image {
-  position: fixed;
+  position: absolute;
   top: 100px;
   right: 15px;
-  max-width: calc(30vw - 15px);
+  max-width: 30vw;
   width: 30vw; /* 30% of viewport width */
   height: auto;
-  z-index: 1;
 }
 
 .right-image img {
@@ -61,15 +58,21 @@ a:active {
   margin-top: 50px;
 }
 
+.main-wrapper {
+  position: relative;
+  margin-bottom: 50px; /* adds spacing to ensure index appears after image */
+  min-height: calc(100px + (30vw * 0.75)); /* approx. height of image + top offset */
+}
+
 .index-line {
   display: flex;
   padding: 0.25rem 0;
-  gap: 1rem; /* optional spacing between columns */
+  gap: 1rem;
 }
 
 .index-line span {
-  flex: 1;           /* makes each column equal width */
-  text-align: left;  /* ensures all text is left-justified */
+  flex: 1;
+  text-align: left;
 }
 
 .left         { flex-basis: 20%; }
