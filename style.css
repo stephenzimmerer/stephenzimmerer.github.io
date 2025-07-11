@@ -39,7 +39,6 @@ body {
 .index-line {
   display: flex;
   padding: 0.25rem 0;
-  gap: 0;
   align-items: center;
   position: relative;
 }
@@ -49,7 +48,7 @@ body {
   padding-right: 0.5rem;
   background: white;
   z-index: 1;
-  flex: 1;           /* makes each column equal width */
+  flex: 0 0 auto;           /* makes each column equal width */
   text-align: left;  /* ensures all text is left-justified */
 }
 
@@ -65,8 +64,9 @@ body {
   position: absolute;
   top: 50%;
   left: 100%;
-  width: 100%;
-  border-bottom: 1px dotted #999;
+  width: calc(100% + 1rem); /* stretch to next column */
+  height: 1px;
+  border-bottom: 1px dotted black;
   transform: translateY(-50%);
   z-index: 0;
 }
