@@ -150,13 +150,11 @@ a:active {
 }
 
 .back-link {
+  all: unset
+  color: grey
   font-size: 14px;
-  background: none;
-  border: none;
-  padding: 0;
-  text-decoration: none;
   cursor: pointer;
-  color: grey;
+  text-decoration: none;
   font-family: inherit;
 }
 
