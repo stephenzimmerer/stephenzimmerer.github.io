@@ -10,10 +10,8 @@ body {
 
 .content-container {
   display: flex;
-  justify-content: space-between; /* pushes image to far right */
+  justify-content: flex-start; /* Keep text on left */
   align-items: flex-start;
-  padding-right: 25px; /* match the left padding */
-  gap: 2rem; /* spacing between text and image */
 }
 
 .left-text {
@@ -21,11 +19,17 @@ body {
 }
 
 .right-image {
-      max-width: 30%;
-      float: right;
-      margin-left: 10px;
-      margin-right: 30px;
-      height: auto; /* Maintain aspect ratio automatically */
+  position: fixed;
+  top: 100px;
+  right: 15px;
+  width: 30vw; /* 30% of viewport width */
+  height: auto;
+}
+
+.right-image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .index-container {
