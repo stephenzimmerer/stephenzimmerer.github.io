@@ -36,8 +36,3 @@ body {
 .center-right { flex-basis: 30%; }
 .right        { flex-basis: 20%; }
 
-.dots {
-  flex: 1; /* fills space between columns */
-  border-bottom: 1px dotted #999;
-  height: 0.5em;
-}
