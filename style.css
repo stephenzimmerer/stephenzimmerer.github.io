@@ -21,7 +21,7 @@ body {
 
 .index-line {
   display: flex;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
   gap: 1rem; /* optional spacing between columns */
 }
 
@@ -34,3 +34,9 @@ body {
 .center-left  { flex-basis: 30%; }
 .center-right { flex-basis: 30%; }
 .right        { flex-basis: 20%; }
+
+.dots {
+  flex: 1; /* fills space between columns */
+  border-bottom: 1px dotted #999;
+  height: 0.5em;
+}
