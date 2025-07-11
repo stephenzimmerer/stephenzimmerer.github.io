@@ -179,3 +179,10 @@ a:active {
 .back-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .project-content {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
