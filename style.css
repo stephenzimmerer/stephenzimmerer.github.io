@@ -112,7 +112,8 @@ a:active {
 .project-image {
   width: 100%;
   display: block;
-  margin: 20px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .back-link-container {
