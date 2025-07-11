@@ -10,10 +10,10 @@ body {
 
 .content-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between; /* pushes image to far right */
   align-items: flex-start;
+  padding-right: 25px; /* match the left padding */
   gap: 2rem; /* spacing between text and image */
-  max-width: 100%;
 }
 
 .left-text {
@@ -22,12 +22,13 @@ body {
 
 .right-image {
   width: 30%;
+  text-align: right; /* ensures image aligns to the right within the div */
 }
 
 .right-image img {
   width: 30%;
   height: auto;
-  display: block;
+  display: inline-block;
 }
 
 .index-container {
