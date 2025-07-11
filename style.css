@@ -7,10 +7,22 @@ body {
   padding-left: 25px;
 }
 
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem; /* spacing between text and image */
+}
+
 .left-text {
   width: 50%;
   margin-bottom: 1rem;
   padding: 0.5rem 0;
+}
+
+.right-image {
+  width: 40%; /* or set max-width: 300px; if preferred */
+  height: auto;
+  object-fit: contain;
 }
 
 .index-container {
