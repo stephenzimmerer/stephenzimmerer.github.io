@@ -90,7 +90,7 @@ a:active {
 
 .project-content {
   width: 50%;
-  text-align: left;
+  text-align: center;
 }
 
 .project-title {
@@ -101,10 +101,31 @@ a:active {
 
 .project-text {
   font-size: 14pt;
+  text-align: left;
   margin-bottom: 30px;
+}
+
+.project-text p {
+  margin-bottom: 1.5em;
 }
 
 .project-image {
   width: 100%;
-  margin-bottom: 20px;
+  display: block;
+  margin: 20px 0;
+}
+
+.back-link-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-link {
+  font-size: 14pt;
+  text-decoration: none;
+  color: grey;
+}
+
+.back-link:hover {
+  text-decoration: underline;
 }
