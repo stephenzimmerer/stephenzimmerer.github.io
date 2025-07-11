@@ -20,6 +20,17 @@ body {
   width: 50%;
 }
 
+.right-image {
+  width: 30%;
+  text-align: right; /* ensures image aligns to the right within the div */
+}
+
+.right-image img {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+}
+
 .index-container {
   clear: both;
   width: 100%;
