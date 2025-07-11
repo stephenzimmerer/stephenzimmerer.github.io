@@ -186,7 +186,7 @@ a:active {
   }
 
   .content-container {
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
   }
 
   .left-text,
