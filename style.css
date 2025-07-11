@@ -190,13 +190,16 @@ a:active {
     width: 100%;
     padding: 3rem 1rem;
   }
+  
   .flex-container {
     flex-direction: column;
   }
+  
   .right-image {
     width: 100%;
     max-width: 100%;
   }
+  
   .left-text {
     width: 100%;
   }
