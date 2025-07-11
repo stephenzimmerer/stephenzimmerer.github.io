@@ -22,10 +22,16 @@ body {
 .index-line {
   display: flex;
   padding: 0.25rem 0;
-  gap: 1rem; /* optional spacing between columns */
+  gap: 0;
+  align-items: center;
+  position: relative;
 }
 
 .index-line span {
+  position: relative;
+  padding-right: 0.5rem;
+  background: white;
+  z-index: 1;
   flex: 1;           /* makes each column equal width */
   text-align: left;  /* ensures all text is left-justified */
 }
@@ -36,3 +42,14 @@ body {
 .center-right { flex-basis: 30%; }
 .right        { flex-basis: 20%; }
 
+/* Dotted line that connects spans, except the last one */
+.index-line span:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 100%;
+  border-bottom: 1px dotted #999;
+  transform: translateY(-50%);
+  z-index: 0;
+}
