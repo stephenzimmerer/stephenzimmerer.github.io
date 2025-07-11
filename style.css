@@ -6,6 +6,7 @@ body {
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
+  margin: 0;
 }
 
 a {
@@ -29,6 +30,8 @@ a:active {
   display: flex;
   justify-content: flex-start; /* Keep text on left */
   align-items: flex-start;
+  position: relative;
+  padding-bottom: 40vh;
 }
 
 .left-text {
@@ -39,8 +42,10 @@ a:active {
   position: fixed;
   top: 100px;
   right: 15px;
+  max-width: calc(30vw - 15px);
   width: 30vw; /* 30% of viewport width */
   height: auto;
+  z-index: 1;
 }
 
 .right-image img {
@@ -53,6 +58,7 @@ a:active {
   clear: both;
   width: 100%;
   padding: 0;
+  margin-top: 50px;
 }
 
 .index-line {
