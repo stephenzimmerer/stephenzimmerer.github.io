@@ -117,9 +117,6 @@ a:active {
 }
 
 .project-text i {
-  display: flex;
-  padding: 0.25rem 0;
-  gap: 1rem;
   margin-bottom: 1.5em;
   font-style: italic;
 }
