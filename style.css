@@ -151,8 +151,13 @@ a:active {
 
 .back-link {
   font-size: 14px;
+  background: none;
+  border: none;
+  padding: 0;
   text-decoration: none;
+  cursor: pointer;
   color: grey;
+  font-family: inherit;
 }
 
 .back-link:hover {
