@@ -8,6 +8,23 @@ body {
   padding-right: 25px;
 }
 
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  text-decoration: underline; /* Optional */
+}
+
+a:active {
+  color: grey;
+}
+
 .content-container {
   display: flex;
   justify-content: flex-start; /* Keep text on left */
