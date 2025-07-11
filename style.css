@@ -50,7 +50,6 @@ a:active {
   align-items: flex-start;
   gap: 2rem; /* Optional: space between text and image */
   padding: 2rem; /* Optional: padding around the container */
-  flex-wrap: wrap;
 }
 
 .left-text {
@@ -187,12 +186,12 @@ a:active {
   }
 
   .content-container {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
 
   .left-text,
   .right-image {
-    width: 100%;
+    width: 100% !important;
   }
   
 }
