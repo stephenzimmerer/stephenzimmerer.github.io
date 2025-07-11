@@ -21,14 +21,11 @@ body {
 }
 
 .right-image {
-  width: 30%;
-  text-align: right; /* ensures image aligns to the right within the div */
-}
-
-.right-image img {
-  width: 30%;
-  height: auto;
-  display: inline-block;
+      max-width: 30%;
+      float: right;
+      margin-left: 10px;
+      margin-right: 30px;
+      height: auto; /* Maintain aspect ratio automatically */
 }
 
 .index-container {
