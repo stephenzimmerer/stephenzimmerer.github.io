@@ -100,8 +100,11 @@ a:active {
 .center-left  { flex-basis: 30%;
                 font-style: italic; }
 .center-right { flex-basis: 30%; }
-.right        { flex-basis: 20%;
-                text-align: right; }
+
+.index-line .right {
+  flex-basis: 20%;
+  text-align: right;
+}
 
 .project-page {
   display: flex;
