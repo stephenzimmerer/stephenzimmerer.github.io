@@ -191,7 +191,6 @@ a:active {
 
   .content-container {
     flex-direction: column-reverse !important;
-    padding: 0; /* remove the 2rem padding */
   }
 
   .left-text,
