@@ -196,7 +196,7 @@ a:active {
   .left-text,
   .right-image {
     width: 100% !important;
-    padding: 3rem 1rem;
+    padding: 3rem 0;
     box-sizing: border-box;
   }
   
