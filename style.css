@@ -4,8 +4,6 @@ body {
   color: black;
   font-size: 14px;
   padding-top: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
   margin: 0;
 }
 
@@ -47,7 +45,6 @@ a:active {
 .container {
   max-width: 80vw;
   margin: 0 auto;
-  padding: 0 1rem; /* optional padding inside the container */
   box-sizing: border-box;
 }
 
