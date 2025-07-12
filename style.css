@@ -86,23 +86,24 @@ a:active {
 }
 
 .index-line {
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 30% 20% 30%; /* Adjust as needed */
   padding: 0.25rem 0;
   gap: 1rem;
 }
 
 .index-line span {
-  flex: 1;
   text-align: left;
 }
 
-.left         { flex-basis: 20%; }
-.center-left  { flex-basis: 30%;
-                font-style: italic; }
-.center-right { flex-basis: 30%; }
+.left {
+  /* no flex-basis needed */ }
+.center-left {
+  font-style: italic; }
+.center-right {
+  text-align: left; /* Optional: override if you want right or center */ }
 
 .index-line .right {
-  flex-basis: 20%;
   text-align: right;
 }
 
