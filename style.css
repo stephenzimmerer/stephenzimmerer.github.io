@@ -87,7 +87,7 @@ a:active {
 
 .index-line {
   display: grid;
-  grid-template-columns: 20% 30% 20% 30%; /* Adjust as needed */
+  grid-template-columns: 20% 45% 25% 10%; /* Adjust as needed */
   padding: 0.25rem 0;
   gap: 1rem;
 }
