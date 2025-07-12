@@ -191,12 +191,13 @@ a:active {
 
   .content-container {
     flex-direction: column-reverse !important;
+    padding: 0; /* remove the 2rem padding */
   }
 
   .left-text,
   .right-image {
     width: 100% !important;
-    padding: 3rem 0rem;
+    padding: 3rem 1rem;
     box-sizing: border-box;
   }
   
