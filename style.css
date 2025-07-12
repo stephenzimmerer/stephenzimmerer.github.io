@@ -56,7 +56,6 @@ a:active {
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem; /* Optional: space between text and image */
-  padding: 2rem; /* Optional: padding around the container */
 }
 
 .left-text {
