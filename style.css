@@ -44,6 +44,13 @@ a:active {
   color: grey;
 }
 
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 0 1rem; /* optional padding inside the container */
+  box-sizing: border-box;
+}
+
 .content-container {
   display: flex;
   justify-content: space-between;
@@ -53,13 +60,11 @@ a:active {
 }
 
 .left-text {
-  width: 50vw;
-  box-sizing: border-box;
+  flex: 5;
 }
 
 .right-image {
-  width: 30vw;
-  box-sizing: border-box;
+  flex: 3;
 }
 
 .right-image img {
