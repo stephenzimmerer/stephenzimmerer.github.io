@@ -60,11 +60,11 @@ a:active {
 }
 
 .left-text {
-  flex: 5;
+  width: 50vw;
 }
 
 .right-image {
-  flex: 3;
+  width: 30vw;
 }
 
 .right-image img {
