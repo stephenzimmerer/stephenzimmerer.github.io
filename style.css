@@ -99,7 +99,8 @@ a:active {
 .left         { flex-basis: 20%; }
 .center-left  { flex-basis: 30%;
                 font-style: italic; }
-.center-right { flex-basis: 30%; }
+.center-right { flex-basis: auto;
+                margin-left: 40%; }
 
 .index-line .right {
   flex-basis: 20%;
