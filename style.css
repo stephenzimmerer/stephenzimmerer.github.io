@@ -78,6 +78,7 @@ a:active {
   padding: 0;
   margin: 50px 0 0 0;
   box-sizing: border-box;
+  width: calc(50vw + 2rem + 30vw); /* Match content-container total width */
 }
 
 .main-wrapper {
@@ -88,9 +89,10 @@ a:active {
 
 .index-line {
   display: grid;
-  grid-template-columns: 50vw 30vw 15vw 5vw;
+  grid-template-columns: 50vw 1fr 1fr 1fr;
   padding: 0.25rem 0;
   gap: 2rem;
+  width: 100%;
 }
 
 .index-line span {
