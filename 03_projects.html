@@ -14,7 +14,7 @@
 // The below javascript is what makes all of the text in a row underline when one hyperlink is highlighted
   document.addEventListener('DOMContentLoaded', function() {
   // Get all links in center-left columns
-  const centerLeftLinks = document.querySelectorAll('.index-line .center-left a');
+  const centerLeftLinks = document.querySelectorAll('.index-line:not(.project-index-line) .center-left a');
   
   centerLeftLinks.forEach(link => {
     // Get the parent row
@@ -72,8 +72,9 @@
 
 <div class="index-container">
 
-  <div class="index-line">
-    <span class="left project-index-header">Project index</span>
+  <div class="index-line project-index-line">
+    <span class="left">Project index</span>
+    <span class="center-left"></span>
     <span class="center-right">Category</span>
   </div>
   
