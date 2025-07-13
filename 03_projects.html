@@ -9,7 +9,34 @@
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  </script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+  // Get all links in center-left columns
+  const centerLeftLinks = document.querySelectorAll('.index-line .center-left a');
+  
+  centerLeftLinks.forEach(link => {
+    // Get the parent row
+    const row = link.closest('.index-line');
+    const allSpans = row.querySelectorAll('.left, .center-left, .center-right, .right');
+    
+    // Add mouseenter event
+    link.addEventListener('mouseenter', function() {
+      allSpans.forEach(span => {
+        span.style.textDecoration = 'underline';
+      });
+    });
+    
+    // Add mouseleave event
+    link.addEventListener('mouseleave', function() {
+      allSpans.forEach(span => {
+        span.style.textDecoration = 'none';
+      });
+    });
+  });
+});
+    
+      </script>
+  
 </head>
 
 <body>
