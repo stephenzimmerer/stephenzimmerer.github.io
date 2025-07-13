@@ -209,6 +209,36 @@ a:active {
     padding: 3rem 0;
     box-sizing: border-box;
   }
+
+  /* Mobile index layout: only show left, center-left, and right columns */
+  .index-line {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Left takes minimal space, center-left takes remaining, right takes minimal space */
+    padding: 0.25rem 0;
+    gap: 1rem; /* Add some spacing between columns */
+    width: 100%;
+  }
+  /* Hide the center-right column on mobile */
+  .index-line .center-right {
+    display: none;
+  }
+  /* Adjust column alignment for mobile */
+  .index-line .left {
+    text-align: left;
+    padding-right: 0;
+  }
+  .index-line .center-left {
+    text-align: left;
+    padding-right: 0;
+  }
+  .index-line .right {
+    text-align: right;
+    padding-right: 0;
+  }
+  /* Remove extra spacing on mobile */
+  .index-line span {
+    padding-right: 0;
+  }
   
 }
 
