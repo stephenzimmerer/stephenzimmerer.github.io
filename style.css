@@ -100,8 +100,8 @@ a:active {
   padding-right: 1rem; /* Add some spacing between columns */
 }
 
-.project-index-line .left {
-  text-decoration: underline !important;
+.project-index-header {
+  text-decoration: underline;
 }
 
 .left {
