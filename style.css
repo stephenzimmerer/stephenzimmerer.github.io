@@ -181,9 +181,9 @@ a:active {
 /* New image caption styling */
 .image-caption {
   font-family: 'Arial', sans-serif;
-  font-size: 10px;
-  color: grey;
-  style: italic;
+  font-size: 10px !important;
+  color: grey !important;
+  style: italic !important;
   text-align: left;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
