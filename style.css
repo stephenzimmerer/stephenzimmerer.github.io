@@ -174,8 +174,19 @@ a:active {
   height: auto;
   display: block;
   margin: 0;
-  padding: 1rem 0; /* 🔹 Add 1rem top and bottom padding */
+  padding: 1rem 0 0 0; /* Top padding only, no bottom padding */
   box-sizing: border-box;
+}
+
+/* New image caption styling */
+.image-caption {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .back-link-container {
