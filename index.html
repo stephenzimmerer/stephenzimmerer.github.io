@@ -6,54 +6,194 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>home page</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .center-container {
-      text-align: center;  /* Centers inline elements like <img> */
-      }
-    img {
-      max-width: 50%;
-      float: right;
-      margin-left: 10px;
-      margin-right: 30px;
-      height: auto; /* Maintain aspect ratio automatically */
-      }
-  </style>
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+
+// The below javascript is what makes all of the text in a row underline when one hyperlink is highlighted
+  document.addEventListener('DOMContentLoaded', function() {
+  // Get all links in center-left columns
+  const centerLeftLinks = document.querySelectorAll('.index-line .center-left a');
+  
+  centerLeftLinks.forEach(link => {
+    // Get the parent row
+    const row = link.closest('.index-line');
+    const allSpans = row.querySelectorAll('.left, .center-left, .center-right, .right');
+    
+    // Add mouseenter event
+    link.addEventListener('mouseenter', function() {
+      allSpans.forEach(span => {
+        span.style.textDecoration = 'underline';
+      });
+    });
+    
+    // Add mouseleave event
+    link.addEventListener('mouseleave', function() {
+      allSpans.forEach(span => {
+        span.style.textDecoration = 'none';
+      });
+    });
+  });
+});
+    
+      </script>
+  
 </head>
 
 <body>
 
-<a href="01_about-contact.html">about-contact</a>
-  <br>
-  <br>
+<div class="container">
+  <div class="content-container">
+    <div class="left-text">
+      <p>
+        I am an architectural and landscape designer based in New York. My work explores the relationship between architectural technology and cross-species encounter, understanding, and co-evolution.
+        Drawing from knowledge and insights in the history of science, I search for reciprocity between ecological practices, sexual politics, and digital technology in architecture.  <br><br>
 
-<a href="02_cv.html">cv</a>
-  <br>
-  <br>
+        I have worked on projects in New York, Paris, and China with offices including MOS Architects, Francois Roche/New-Territories, and Ken Smith Workshop.
+        My built projects include a garden at the Jardin de Metis in Quebec (2025), a traveling garden installed at Syracuse University School of Architecture (2025), and a shed for a queer bar in Brooklyn, New York (2023).  <br><br>
 
-<a href="03_projects.html">projects</a>
-  <br>
-  <br>
+        I hold a Bachelor of Landscape Architecture with honors from the Pennsylvania State University, and a Master of Architecture from Columbia University Graduate School of Architecture, Planning and Preservation, where I received the Excellence in Design award, a William Kinne Fellowship, and the AIA Allwork Scholarship.
+        I teach architecture and media at Syracuse University School of Architecture.  <br><br>
 
-<a href="04_scenarios.html">scenarios</a>
-  <br>
-  <br>
+        This website indexes some of my work...
+      </p>
 
-<a href="05_practice.html">practice</a>
-  <br>
-  <br>
+      <p>
+        Contact <a href="mailto:sjzimmer@syr.edu">sjzimmer@syr.edu</a> <br>
+        Instagram <a href="https://www.instagram.com/stephenzimmerer/?hl=en">stephenzimmerer</a> <br>
+        Linkedin <a href="https://www.linkedin.com/in/stephen-zimmerer/">stephen-zimmerer</a> <br>
+      </p>
+    </div>
+    <div class="right-image">
+      <img src="Landing-Page/Landing-Page-GIF.gif" alt="landing-page-gif">
+    </div>
+   </div>
 
-<a href="06_teaching.html">teaching</a>
-  <br>
-  <br>
+<div class="index-container">
 
-<div class="center-container">
-    <img src="about-contact/NPK Garden 02 - Small.jpg" alt="NPK Garden">
+  <div class="index-line">
+    <span class="left project-index-header">Project index</span>
+    <span class="center-left"></span>
+    <span class="center-right project-index-header">Category</span>
+  </div>
+  
+  <div class="index-line">
+    <span class="left">Garden 3.</span>
+    <span class="center-left">
+      <a href="a-dream-of-a-permanent-garden.html">A dream of a permanent garden</a>
+      </span>
+    <span class="center-right">Built work</span>
+    <span class="right">2025</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Garden 2.</span>
+    <span class="center-left">
+      <a href="peek-a-boo.html">Peek-a-boo</a>
+      </span>
+    <span class="center-right">Built work</span>
+    <span class="right">2025</span>
+  </div>
+  
+  <div class="index-line">
+    <span class="left">Apparatus 3.</span>
+    <span class="center-left">
+      <a href="npermanencies-tractatus.html">nPermanencies tractatus</a>
+      </span>
+    <span class="center-right">Contributing</span>
+    <span class="right">2025</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Media 2.</span>
+    <span class="center-left">
+      <a href="thinking-digitally.html">Thinking digitally</a>
+      </span>
+    <span class="center-right">Teaching</span>
+    <span class="right">2025</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Housing 2.</span>
+    <span class="center-left">
+      <a href="even-better-homes-and-gardens.html">Even better homes & gardens</a>
+      </span>
+    <span class="center-right">Teaching</span>
+    <span class="right">2024</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Book 1.</span>
+    <span class="center-left">
+      <a href="ground-conditions.html">Ground conditions</a>
+      </span>
+    <span class="center-right">Academic</span>
+    <span class="right">2024</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Garden 1.</span>
+    <span class="center-left">
+      <a href="evening-lark.html">Evening lark</a>
+      </span>
+    <span class="center-right">Academic</span>
+    <span class="right">2024</span>
+  </div>
+  
+  <div class="index-line">
+    <span class="left">Shed 1.</span>
+    <span class="center-left">
+      <a href="snake-eyes.html">Snake eyes</a>
+      </span>
+    <span class="center-right">Built work</span>
+    <span class="right">2023</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Apparatus 2.</span>
+    <span class="center-left">
+      <a href="the-chamber-of-memories-to-come.html">The chamber of memories to come</a>
+      </span>
+    <span class="center-right">Contributing</span>
+    <span class="right">2023</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Housing 1.</span>
+    <span class="center-left">
+      <a href="earwig.html">Earwig</a>
+      </span>
+    <span class="center-right">Academic</span>
+    <span class="right">2021</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Apparatus 1.</span>
+    <span class="center-left">
+      <a href="surveillance-scape.html">Surveillance scape</a>
+      </span>
+    <span class="center-right">Built work</span>
+    <span class="right">2020</span>
+  </div>
+
+  <div class="index-line">
+    <span class="left">Media 1.</span>
+    <span class="center-left">
+      <a href="multiplicity.html">Multiplicity</a>
+      </span>
+    <span class="center-right">Contributing</span>
+    <span class="right">2019</span>
+  </div>
+
 </div>
-
+</div>
+  
+ <div class="back-link-container">
+   <button class="back-link" onclick="scrollToTop()">↑ Back to top</button>
+ </div>
+    
 </body>
-
+    
 </html>
-
-
-
-   
