@@ -30,7 +30,7 @@
   <div class="gallery-container">
     <button class="gallery-nav gallery-nav-left" onclick="previousImage()">‹</button>
     <div class="gallery-image-container">
-      <img id="gallery-image" src="earwig/gallery-001.jpg" alt="Gallery image 1 of 30">
+      <img id="gallery-image" src="ground-conditions/ground-conditions_Page_01.jpg" alt="Gallery image 1 of 30">
       <div class="gallery-counter">
         <span id="current-image">1</span> / 30
       </div>
@@ -47,7 +47,7 @@ const totalImages = 30;
 const imagePaths = [];
 for (let i = 1; i <= totalImages; i++) {
   const imageNumber = i.toString().padStart(3, '0'); // Creates 001, 002, etc.
-  imagePaths.push(`earwig/gallery-${imageNumber}.jpg`);
+  imagePaths.push(`ground-conditions/ground-conditions_Page_${imageNumber}.jpg`);
 }
 
 function updateGalleryImage() {
