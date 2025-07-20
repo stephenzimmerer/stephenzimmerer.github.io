@@ -10,6 +10,42 @@
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+
+    
+let currentImageIndex = 1;
+const totalImages = 62;
+
+function changeImage(direction) {
+    currentImageIndex += direction;
+    
+    // Loop around if we go past the boundaries
+    if (currentImageIndex > totalImages) {
+        currentImageIndex = 1;
+    } else if (currentImageIndex < 1) {
+        currentImageIndex = totalImages;
+    }
+    
+    // Update the image source
+    const imageElement = document.getElementById('gallery-image');
+    const paddedNumber = currentImageIndex.toString().padStart(2, '0');
+    imageElement.src = `ground-conditions/ground-conditions_Page_${paddedNumber}.jpg`;
+    
+    // Update counter
+    document.getElementById('image-counter').textContent = `${currentImageIndex} of ${totalImages}`;
+}
+
+// Optional: Add keyboard navigation
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'ArrowLeft') {
+        changeImage(-1);
+    } else if (event.key === 'ArrowRight') {
+        changeImage(1);
+    }
+});
+
+    
+
   </script>
 </head>
 
@@ -24,7 +60,7 @@
 
     <div class="project-image">
       <img src="earwig/001-paper-model-a.jpg" alt="paper model">
-<!-- TEST ABOVE -->
+<!-- TEST BELOW -->
 <div class="image-gallery">
     <div class="gallery-container">
         <button class="gallery-nav prev" onclick="changeImage(-1)">‹</button>
