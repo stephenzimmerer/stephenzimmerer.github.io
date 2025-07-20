@@ -24,62 +24,7 @@
 
     <div class="project-image">
       <img src="earwig/001-paper-model-a.jpg" alt="paper model">
-
-<!-- test below -->
-<div class="image-gallery">
-  <div class="gallery-container">
-    <button class="gallery-nav gallery-nav-left" onclick="previousImage()">‹</button>
-    <div class="gallery-image-container">
-      <img id="gallery-image" src="ground-conditions/ground-conditions_Page_01.jpg" alt="Gallery image 1 of 30">
-      <div class="gallery-counter">
-        <span id="current-image">1</span> / 30
-      </div>
-    </div>
-    <button class="gallery-nav gallery-nav-right" onclick="nextImage()">›</button>
-  </div>
-</div>
-
-<script>
-let currentImageIndex = 1;
-const totalImages = 30;
-
-// Array of image paths - update these to match your actual image filenames
-const imagePaths = [];
-for (let i = 1; i <= totalImages; i++) {
-  const imageNumber = i.toString().padStart(3, '0'); // Creates 001, 002, etc.
-  imagePaths.push(`ground-conditions/ground-conditions_Page_${imageNumber}.jpg`);
-}
-
-function updateGalleryImage() {
-  const galleryImage = document.getElementById('gallery-image');
-  const currentImageSpan = document.getElementById('current-image');
-  
-  galleryImage.src = imagePaths[currentImageIndex - 1];
-  galleryImage.alt = `Gallery image ${currentImageIndex} of ${totalImages}`;
-  currentImageSpan.textContent = currentImageIndex;
-}
-
-function nextImage() {
-  currentImageIndex = currentImageIndex < totalImages ? currentImageIndex + 1 : 1;
-  updateGalleryImage();
-}
-
-function previousImage() {
-  currentImageIndex = currentImageIndex > 1 ? currentImageIndex - 1 : totalImages;
-  updateGalleryImage();
-}
-
-// Optional: Add keyboard navigation
-document.addEventListener('keydown', function(event) {
-  if (event.key === 'ArrowRight') {
-    nextImage();
-  } else if (event.key === 'ArrowLeft') {
-    previousImage();
-  }
-});
-</script>
-    
-<!-- test above -->
+IMAGE GALLERY HERE
     </div>
     
     <div class="project-text">
