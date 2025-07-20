@@ -341,6 +341,15 @@ a:active {
     box-sizing: border-box;
   }
 
+    /* Add this for the floating home link on mobile */
+  .floating-home-link {
+    position: fixed !important;
+    top: 25px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 999 !important;
+  }
+
   /* Mobile index layout: fixed positioning for consistent alignment */
   .index-line {
     display: grid;
