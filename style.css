@@ -63,7 +63,6 @@ a:active {
 }
 
 .left-text i div {
-  margin: 0.25rem 0; /* ⬅️ vertical spacing: top and bottom */
   font-style: italic;
 }
 
