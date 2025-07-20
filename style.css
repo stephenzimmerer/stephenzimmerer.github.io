@@ -35,10 +35,11 @@ body {
   color: grey;
   text-decoration: none;
   z-index: 999;
-  background: none;
+  background: white;
   border: none;
   font-family: inherit;
   cursor: pointer;
+  display: block;
 }
 
 .floating-next-link:hover {
