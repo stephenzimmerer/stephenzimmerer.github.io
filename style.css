@@ -27,26 +27,6 @@ body {
   text-decoration: underline;
 }
 
-.floating-home-link {
-  position: fixed;
-  top: 25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 14px;
-  color: grey;
-  text-decoration: none;
-  z-index: 999;
-  background: white;
-  border: none;
-  font-family: inherit;
-  cursor: pointer;
-  display: block;
-}
-
-.floating-home-link:hover {
-  text-decoration: underline;
-}
-
 .floating-next-link {
   position: fixed;
   top: 25px;
@@ -55,7 +35,7 @@ body {
   color: grey;
   text-decoration: none;
   z-index: 999;
-  background: white;
+  background: none;
   border: none;
   font-family: inherit;
   cursor: pointer;
@@ -160,7 +140,6 @@ a:active {
 }
 
 .project-page {
-  margin-top: 0.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -340,15 +319,6 @@ a:active {
     width: 100% !important;
     padding: 3rem 0;
     box-sizing: border-box;
-  }
-
-    /* Add this for the floating home link on mobile */
-  .floating-home-link {
-    position: fixed !important;
-    top: 25px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    z-index: 999 !important;
   }
 
   /* Mobile index layout: fixed positioning for consistent alignment */
