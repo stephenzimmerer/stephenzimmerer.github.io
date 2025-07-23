@@ -220,6 +220,13 @@ a:active {
   box-sizing: border-box;
 }
 
+/* Add top spacing for the first project image on desktop only */
+@media screen and (min-width: 769px) {
+  .project-image:first-child {
+    margin-top: 30px;
+  }
+}
+
 /* New image caption styling */
 .image-caption {
   font-family: 'Arial', sans-serif;
