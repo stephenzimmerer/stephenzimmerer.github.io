@@ -222,7 +222,7 @@ a:active {
 
 /* Add top spacing for the first project image on desktop only */
 @media screen and (min-width: 769px) {
-  .project-image:first-child {
+  .project-content > .project-image:first-of-type {
     margin-top: 30px;
   }
 }
