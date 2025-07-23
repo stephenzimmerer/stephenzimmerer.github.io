@@ -27,6 +27,25 @@ body {
   text-decoration: underline;
 }
 
+.floating-home-link {
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: grey;
+  text-decoration: none;
+  z-index: 999;
+  background: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.floating-home-link:hover {
+  text-decoration: underline;
+}
+
 .floating-next-link {
   position: fixed;
   top: 25px;
